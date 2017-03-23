@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 %\usepackage{amsmath}
-%\usepackage{subfiles}
+\usepackage{subfiles}
 
 %\graphicspath{{./figures/}}
 \usepackage[]{natbib}
@@ -16,22 +16,66 @@
 \bibliographystyle%
   {wileynum}%for numerical citation and numerically listed entries in the bibliography
   %{wileyauy}%for author--year citation and alphabetical order in the bibliography
+
 \usepackage{wileySTM}
 \usepackage[\ifnum\pdfoutput=1breaklinks\fi]{hyperref}
 \author{James L. Collins, Mark T. Edmonds, Jack T. Hellerstedt, Michael S. Fuhrer}\title{Dirac Semimetal Electrical transport and Scanning Tunneling Spectroscopy}
 
 %\includeonly{}
 
+
+
 \begin{document}
 \frontmatter
 %\include{foreword}
-%\tableofcontents
-%\include{preface}
-\mainmatter
-Hello Wold!%only for testing -- please delete
+\tableofcontents
+\include{preface}
 
-\part{1}
-\include{}
+\mainmatter
+
+HEY, LISTEN
+
+%\part{1}
+
+
+
+\section{Introduction} % (fold)
+\label{sec:introduction}
+
+
+\subfile{ch0}
+% section introduction (end)
+
+
+
+\section{Transport} % (fold)
+\label{sec:transport}
+
+
+\subfile{ch1}
+
+% section transport (end)
+
+
+
+\section{Doping} % (fold)
+\label{sec:doping}
+
+\subfile{ch2}
+% section doping (end)
+
+
+
+
+\section{Puddling} % (fold)
+\label{sec:puddling}
+
+\subfile{ch3}
+% section puddling (end)
+
+
+
+
 
 %\include{c02}
 
